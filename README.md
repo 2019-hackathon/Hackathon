@@ -1,5 +1,5 @@
-TeenHacksLI 2019 Hackathon
+# TeenHacksLI 2019 Hackathon
 
 By Andson Li, Chris Mathew, Daniel Min, John Baek
 
-lets go for fourth place!
+Lets go for fourth place!
