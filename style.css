@@ -1,0 +1,164 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 75, 0.5)), url(back.jpg);	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+#navbar {
+  	background: transparent;
+	height: (80px);
+	text-align: right;
+	overflow: hidden;
+}
+
+#navbar li a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#navbar  li{
+	display: inline-block;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.logo
+{
+	margin: 10px, 50px;
+	height: 80px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li
+{
+	display: inline-block;
+
+}
+
+.menu li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover
+{
+	background: #fff;
+	transition: .4s;
+	color: #000;
+}
+
+.welcome 
+{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 230px;
+}
+
+.welcome h1
+{
+	font-size: 42px;
+	margin: 25px;	
+}
+
+.btn
+{
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 20px;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.btn1{
+	color: #fff;
+}
+
+.btn2{
+	background: #000;
+	color: #fff;
+}
+.btn1:hover
+{
+	background: #000;
+	color: #fff;
+	transition: .4s;
+}
+
+.about{
+	text-align: center;
+	padding-top: 600px;
+}
+
+.clearfix{
+	overflow: auto;
+	padding-top: 20px;
+	margin: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	border: 1px solid #000;
+	background-color: #F8F9F9;
+	padding: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.img1{
+	float: right;
+}
+
+.textS{
+	
+}
+
+
+
+
+
+
