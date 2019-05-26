@@ -1,0 +1,14 @@
+Beef
+Breakfast
+Chicken
+Desert
+Goat
+Lamb
+Miscellaneous
+Pasta
+Pork
+Seafood
+Side
+Starter
+Vegan
+Vegetarian
