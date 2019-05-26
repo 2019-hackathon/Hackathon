@@ -6,18 +6,19 @@
 
 header
 {
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 75, 0.5)), url(back.jpg);	
-	height: 100vh;
+		
+	
 	background-size: cover;
 	background-position: center;
 }
 
 
 #navbar {
-  	background: transparent;
+
 	height: (80px);
-	text-align: right;
+	text-align: center;
 	overflow: hidden;
+	background-color: #333;
 }
 
 #navbar li a {
@@ -38,12 +39,18 @@ header
   color: black;
 }
 
-
-
+.title{
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .logo
 {
 	margin: 10px, 50px;
 	height: 80px;
+
 }
 
 .sticky {
@@ -55,6 +62,16 @@ header
 .sticky + .content {
   padding-top: 60px;
 }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  top: 100px;
+  min-width: 100%; 
+  max-height: 20%;
+  object-fit: cover;
+}
+
 
 .menu
 {
@@ -93,7 +110,7 @@ header
 	text-align: center;
 	font-family: sans-serif;
 	color: #fff;
-	top: 230px;
+	top: 60px;
 }
 
 .welcome h1
@@ -102,6 +119,7 @@ header
 	margin: 25px;	
 }
 
+/*
 .btn
 {
 	font-size: 18px;
@@ -129,10 +147,11 @@ header
 	color: #fff;
 	transition: .4s;
 }
+*/
 
 .about{
 	text-align: center;
-	padding-top: 600px;
+	padding-top: 420px;
 }
 
 .clearfix{
@@ -146,7 +165,7 @@ header
 	padding: 20px;
 	padding-right: 50px;
 	padding-left: 50px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .img1{
