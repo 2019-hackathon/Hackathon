@@ -4,7 +4,7 @@ import webbrowser
 import time
 from selenium import webdriver
 
-browser = webdriver.Firefox()
+browser = webdriver.Chrome(executable_path='~/Desktop/Chris/Hackathon/chromedriver')
 
 with open('categories.txt', 'r') as f:
     categories = f.read().split()
@@ -33,6 +33,7 @@ with open("chooser.html", "a") as f:
     f.write("</html>")
 
 url = 'file:///tmp/hack/chooser.html'
+
 browser.get(url)
 
 num = browser.find_element_by_id("choice1")
