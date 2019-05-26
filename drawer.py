@@ -75,7 +75,6 @@ class main:
         optionmenu.add_command(label='Exit',command=self.master.destroy)
 
 
-
 if __name__ == '__main__':
     root = Tk()
     main(root)
