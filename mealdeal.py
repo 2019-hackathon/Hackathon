@@ -2,18 +2,22 @@ import requests
 import re
 
 with open('categories.txt', 'r') as f:
-    categories = f.read()
+    categories = f.read().split()
 
-print(categories)
+print('What are you in the mood for?\n')
+for n, category in enumerate(categories):
+    print(f'{n+1}. {category}')
 
-food = requests.get(f'https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata').text
+category = categories[int(input('> ')) - 1]
+
+link = f'https://www.themealdb.com/api/json/v1/1/filter.php?c={category}'
+food = requests.get(link).text
 
 p = re.compile(r'"strMeal":.*?,')
 result = p.finditer(food)
 
-print()
 name = ''
 for i in result:
-    name += i.group(0)[11:-2]
+    name += i.group(0)[11:-2] + '\n'
 
 print(name)
